@@ -14,14 +14,14 @@ spring:
           #private-key:
 
 # 配置注册中心
-#eureka:
-#  instance:
-#    hostname: localhost
-#  client:
-#    fetch-registry: true
-#    register-with-eureka: true
-#    serviceUrl:
-#      defaultZone: http://${eureka.instance.hostname}:18090/eureka/
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:18090/eureka/
 
 server:
   port: 5001
